@@ -1,0 +1,8 @@
+package entregable2;
+
+public class PedidoInvalidoException extends Exception{
+    public PedidoInvalidoException(String mensaje){
+        super(mensaje);
+    }
+    
+}

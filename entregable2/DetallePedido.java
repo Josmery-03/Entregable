@@ -1,0 +1,29 @@
+package entregable2;
+
+public class DetallePedido {
+
+    private Producto producto;
+    private int cantidad;
+    private double precioUnitario;
+
+    public DetallePedido(Producto producto, int cantidad){
+        this.producto = producto;
+        this.cantidad = cantidad;
+        this.precioUnitario = producto.getPrecio();
+    }
+
+    public double calcularSubtotal(){
+        return cantidad * precioUnitario;
+    }
+
+    public Producto getProducto(){ return producto; }
+    public int getCantidad(){ return cantidad; }
+
+    @Override
+    public String toString(){
+        return producto.getNombre()+" Cant: "+cantidad+
+               " P.Unit: "+precioUnitario+
+               " Subtotal: "+calcularSubtotal();
+    }
+}
+
