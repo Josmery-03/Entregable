@@ -1,0 +1,9 @@
+REPORTE DEL SISTEMA
+Fecha: Wed Mar 04 11:08:43 GMT-04:00 2026
+Total productos: 3
+Total clientes: 3
+BORRADOR: 5
+CONFIRMADO: 0
+PROCESADO: 0
+Productos con stock bajo (<5):
+Total ingresos: 0.0
